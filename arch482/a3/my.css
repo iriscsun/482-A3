@@ -1,0 +1,110 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #535354;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: .9rem;
+}
+
+/* Add a black background color to the top navigation */
+.nav {
+    background-color: #535354;
+    overflow: hidden;
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+    float: left;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+    background-color: #f2f2f2;
+		color: black;
+}
+
+/* container for all body content */
+.container {
+  background-color: #f2f2f2;
+  padding: 30px 40px 20px 40px;
+}
+
+.intro {
+	padding: 0px 20px 20px 20px;
+}
+
+#home-arch482 {
+	float: right;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#headshot {
+	width: 50%;
+	border-radius: 50%;
+	max-width: 400px;
+}
+
+#headshot:hover {
+	cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+.title {
+	text-align: center;
+	color: black;
+}
+
+.sub-title {
+	padding-top: -5px;
+}
+
+.portfolio-landing {
+	background-color: white;
+	padding: 20px;
+  display: inline-block;
+}
+
+
+
+#be-u-img {
+	max-width: 400px;
+	width: 80%;
+	margin-bottom: 40px;
+
+}
+
+#erd-img {
+	max-width: 550px;
+	width: 80%;
+}
+
+#marijuana-img {
+	max-width: 600px;
+	width: 80%;
+}
+
+#flight-img {
+	max-width: 525px;
+	width: 80%;
+}
